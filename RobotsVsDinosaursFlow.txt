@@ -1,0 +1,23 @@
+Commits
+
+Classes:Robot - Name, HP, Attack Power, Weapon
+	Dinosaur - Type, HP, Attack Power, Energy
+	Fleet 
+	Herd 
+	Weapon
+	Battlefield
+						   Robot 1
+                                                  /	 \
+					         /	  \
+			Fleet (spawns 3 Robots)----Robot 2--Weapon Type
+		       /                         \	  /
+		      /                           \	 /
+		     /				   Robot 3
+Game --- Battlefield-------------------------------------------------------------- 
+		     \                             Dino 1
+		      \                           /
+                       \			 /
+			Herd (Spawns 3 Dinosaurs)--Dino 2
+						 \
+						  \
+						   Dino 3
