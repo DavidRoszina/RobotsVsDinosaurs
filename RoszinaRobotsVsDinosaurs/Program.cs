@@ -10,6 +10,10 @@ namespace RoszinaRobotsVsDinosaurs
     {
         static void Main(string[] args)
         {
+            new Battlefield("Kobol");
+            Console.WriteLine("Welcome to Robots vs. Dinosaurs!");
+
+            Console.ReadLine();
         }
-    }
+    } 
 }
