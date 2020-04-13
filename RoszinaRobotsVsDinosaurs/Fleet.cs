@@ -6,19 +6,18 @@ using System.Threading.Tasks;
 
 namespace RoszinaRobotsVsDinosaurs
 {
-    
     class Fleet
     {
-        public string fleetName;
-        public Robot robot1;
-        public Robot robot2;
-        public Robot robot3;
+        
+        public List<Robot> theRobots;
 
         public Fleet(string fleetName)
         {
-            robot1 = new Robot("Steve");
-            robot2 = new Robot("Jimmy");
-            robot3 = new Robot("Johnny V");
+            theRobots = new List<Robot>();
+            theRobots.Add(new Robot("Steve"));
+            theRobots.Add(new Robot("Jimmy"));
+            theRobots.Add(new Robot("Johnny V"));
+
         }
     }
 }

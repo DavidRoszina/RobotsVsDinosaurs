@@ -8,7 +8,7 @@ namespace RoszinaRobotsVsDinosaurs
 {
     class Weapon
     {
-        public string weaponName;
+        
 
         public Weapon()
         {

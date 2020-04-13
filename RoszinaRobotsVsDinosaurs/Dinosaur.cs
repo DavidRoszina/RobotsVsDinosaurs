@@ -8,7 +8,7 @@ namespace RoszinaRobotsVsDinosaurs
 {
     class Dinosaur
     {
-        public string type;
+        
         public int energy;
         public int health;
         public int attackPower;
@@ -18,7 +18,10 @@ namespace RoszinaRobotsVsDinosaurs
             health = 100;
             energy = 10;
             attackPower = 10;
-            Console.ReadLine();
+        }
+        public void Attack(Robot robotToAttack)
+        {
+
         }
     }
 }

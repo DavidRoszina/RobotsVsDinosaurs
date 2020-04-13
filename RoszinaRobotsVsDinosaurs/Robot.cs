@@ -19,6 +19,9 @@ namespace RoszinaRobotsVsDinosaurs
             health = 100;
             powerLevel = 10;
         }
+        public void Attack(Dinosaur dinoToAttack)
+        {
 
+        }
     }
 }
