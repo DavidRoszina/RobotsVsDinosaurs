@@ -19,5 +19,14 @@ namespace RoszinaRobotsVsDinosaurs
             theDinos.Add(new Dinosaur("Triceratops"));
            
         }
+        public bool isAlive()
+        {
+            for (int i = 0; i < theDinos.Count; i++)
+            {
+                if (theDinos[i].health > 0)
+                    return true;
+            }
+            return false;
+        }
     }
 }

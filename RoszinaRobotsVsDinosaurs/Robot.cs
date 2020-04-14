@@ -21,7 +21,11 @@ namespace RoszinaRobotsVsDinosaurs
         }
         public void Attack(Dinosaur dinoToAttack)
         {
-
+            
+            if (health > 0)
+                dinoToAttack.health -= weapon.weaponDamage;
+            
+            
         }
     }
 }
